@@ -7,6 +7,7 @@
     <title>Backend</title>
     <!-- -------- -->
     <?php require $_SERVER['DOCUMENT_ROOT'] . "/template/backend/components/link.php"; ?>
+    
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
