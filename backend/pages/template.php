@@ -54,6 +54,11 @@
     <!-- ---------  -->
     <?php require $_SERVER['DOCUMENT_ROOT'] . "/template/backend/components/footer.php"; ?>
     <?php require $_SERVER['DOCUMENT_ROOT'] . "/template/backend/components/script.php"; ?>
+    <script>
+        $(function () {
+        bsCustomFileInput.init();
+        });
+    </script>
 </body>
 
 </html>
