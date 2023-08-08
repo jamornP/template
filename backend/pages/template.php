@@ -19,6 +19,18 @@
     <div class="wrapper">
        
         <!-- ----- -->
+        <?php 
+            $msg = "บันทึกสำเร็จ";
+            $url = "index.php";
+            echo "<script>";
+            echo "alertSuccess('{$msg}','{$url}')";
+            echo "</script>";
+
+            // $msg = "บันทึกไม่สำเร็จ";
+            // echo "<script>";
+            // echo "alertError('{$msg}')";
+            // echo "</script>";
+        ?>
         <?php require $_SERVER['DOCUMENT_ROOT'] . "/template/backend/components/load.php"; ?>
         <?php require $_SERVER['DOCUMENT_ROOT'] . "/template/backend/components/menu_left.php"; ?>
         <?php require $_SERVER['DOCUMENT_ROOT'] . "/template/backend/components/navbar.php"; ?>
